@@ -1,3 +1,13 @@
 import React from 'react'
 
-export const App = () => <div>app</div>
+import {StoriesContainer} from './containers/StoriesContainer'
+import {GlobalStyles} from './styles/GlobalStyles'
+
+export const App = () => {
+  return (
+    <>
+      <GlobalStyles />
+      <StoriesContainer />
+    </>
+  )
+}
